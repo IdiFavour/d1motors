@@ -17,12 +17,12 @@ import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 export default function FilterBox() {
   return (
     <form>
-      <div className="space-y-12 py-8 ">
+      <div className="space-y-12 my-24 ">
         <div className=" border-gray-900/10 pb-12">
+          <h2 className="text-base text-center font-semibold leading-7 text-gray-900">
+            Not Sure About Which Vehicle to Pick? Find it Here!
+          </h2>
           <div className="mt-10 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-7">
-            <h2 className="text-base font-semibold leading-7 text-gray-900">
-              Search Cars
-            </h2>
             <div className="sm:col-span-2 sm:col-start-1">
               <div className="mt-2">
                 <input
