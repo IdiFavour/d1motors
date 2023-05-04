@@ -48,7 +48,10 @@ export default function Navbar() {
           <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
             Home
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/stock"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Stock
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
