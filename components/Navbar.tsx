@@ -54,10 +54,16 @@ export default function Navbar() {
           >
             Stock
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/brands"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Brands
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/about"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             About
           </a>
         </Popover.Group>
@@ -103,19 +109,19 @@ export default function Navbar() {
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="/stock"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Stock
                 </a>
                 <a
-                  href="#"
+                  href="/brands"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Brand
                 </a>
                 <a
-                  href="#"
+                  href="/abour"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About

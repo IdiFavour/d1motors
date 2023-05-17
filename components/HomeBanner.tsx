@@ -8,7 +8,7 @@ const links = [
 export default function HomeBanner() {
   return (
     <div className=" bg-gray-900 videoBox">
-      <video className="w-full " muted>
+      <video className="w-full " loop autoPlay muted>
         <source src="/Maybach.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
