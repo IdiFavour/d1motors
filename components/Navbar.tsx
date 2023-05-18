@@ -68,8 +68,17 @@ export default function Navbar() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          {/* <a
+            href="#"
+            className="text-sm font-semibold leading-6 text-white bg-main"
+          >
             Contact<span aria-hidden="true">&rarr;</span>
+          </a> */}
+          <a
+            className="inline-block border bg-main px-4 py-2 text-sm font-medium text-black hover:bg-transparent focus:outline-none focus:ring active:text-indigo-500"
+            href="/download"
+          >
+            Contact <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>

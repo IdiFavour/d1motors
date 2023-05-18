@@ -3,7 +3,7 @@ export default function Footer() {
     <footer aria-label="Site Footer" className="lg:grid lg:grid-cols-5">
       <div className="relative block h-32 lg:col-span-2 lg:h-full">
         <img
-          src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+          src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
           alt="Footer image"
           className="absolute inset-0 object-cover w-full h-full"
         />

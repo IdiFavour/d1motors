@@ -25,3 +25,8 @@
   object-fit: cover;
   display: block;
 }
+
+.bg-main{
+  background-color: #fce116;
+}
+
