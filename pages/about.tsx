@@ -1,5 +1,3 @@
-import About from "@/components/About";
-
 export default function about() {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
