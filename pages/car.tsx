@@ -163,7 +163,7 @@ export default function Car() {
 
               <button
                 type="submit"
-                className="mt-10 flex w-full items-center justify-center  border border-transparent bg-main px-8 py-3 text-base font-medium text-white hover:bg-main focus:outline-none focus:ring-2  focus:ring-offset-2"
+                className="mt-10 flex w-full items-center justify-center  border border-transparent bg-main px-8 py-3 text-base font-medium text-black hover:bg-main focus:outline-none focus:ring-2  focus:ring-offset-2"
               >
                 ENQUIRE NOW
               </button>

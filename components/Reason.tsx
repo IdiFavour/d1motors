@@ -6,7 +6,7 @@ export default function Reason() {
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-50 lg:items-center lg:px-8">
         <div className="max-w-xl text-white">
           <h1 className="text-3xl sm:text-5xl">
-            The Easiest Way to Find the Most Suitable Car for Yourself
+            We Have Offices in Dubai and Tajikistan
           </h1>
 
           <p className="mt-4 max-w-lg">
@@ -19,7 +19,7 @@ export default function Reason() {
               href="#"
               className="block w-full rounded bg-main px-12 py-3 text-sm font-medium text-black shadow  focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
             >
-              Get Started
+              Call Us Now
             </a>
           </div>
         </div>

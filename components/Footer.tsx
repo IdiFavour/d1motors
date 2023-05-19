@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
 
       <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div>
             <p>
               <span className="text-xs tracking-wide text-gray-500 uppercase">
@@ -147,7 +147,7 @@ export default function Footer() {
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <p className="font-medium text-gray-900">Links</p>
+              <p className="font-medium text-gray-900">Contact Info</p>
 
               <nav aria-label="Footer Navigation - Services" className="mt-6">
                 <ul className="space-y-4 text-sm">
@@ -156,7 +156,7 @@ export default function Footer() {
                       href="/"
                       className="text-gray-700 transition hover:opacity-75"
                     >
-                      Home
+                      support@d1motor.com
                     </a>
                   </li>
 
@@ -165,7 +165,7 @@ export default function Footer() {
                       href="/stock"
                       className="text-gray-700 transition hover:opacity-75"
                     >
-                      Stocks
+                      Dubai Office
                     </a>
                   </li>
 
@@ -174,16 +174,7 @@ export default function Footer() {
                       href="#"
                       className="text-gray-700 transition hover:opacity-75"
                     >
-                      Brands
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="#"
-                      className="text-gray-700 transition hover:opacity-75"
-                    >
-                      About
+                      Tajikistan Office
                     </a>
                   </li>
                 </ul>

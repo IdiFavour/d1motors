@@ -83,7 +83,7 @@ export default function Stock() {
                     </div>
                     <Spacer />
                     <div>
-                      <div className=" bg-sec py-1.5 px-1.5 w-full text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+                      <div className="rounded-md bg-two py-1.5 px-1.5 w-full text-xs font-semibold text-white shadow-sm">
                         AED 20000
                       </div>
                     </div>
