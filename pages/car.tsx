@@ -1,7 +1,3 @@
-import { useState } from "react";
-import { StarIcon } from "@heroicons/react/20/solid";
-import { RadioGroup } from "@headlessui/react";
-
 const product = {
   name: "Basic Tee 6-Pack",
   price: "$192",
@@ -50,15 +46,8 @@ const product = {
   details:
     'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
 };
-const reviews = { href: "#", average: 4, totalCount: 117 };
-
-function classNames(...classes: any) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function Car() {
-  const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
-
   return (
     <div className="bg-white">
       <div className="pt-6">
@@ -174,7 +163,7 @@ export default function Car() {
 
               <button
                 type="submit"
-                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="mt-10 flex w-full items-center justify-center  border border-transparent bg-main px-8 py-3 text-base font-medium text-white hover:bg-main focus:outline-none focus:ring-2  focus:ring-offset-2"
               >
                 ENQUIRE NOW
               </button>
